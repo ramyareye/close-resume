@@ -1,0 +1,115 @@
+{
+  "basics": {
+    "name": "Reza Babaei",
+    "label": "Senior Fullstack Engineer",
+    "email": "ramyariran@gmail.com",
+    "url": "https://github.com/ramyareye",
+    "linkedin": "https://linkedin.com/in/rezababaei",
+    "summary": "Senior Fullstack Engineer with 8+ years building scalable platforms across frontend, backend, and cloud infrastructure. Expert in React, React Native, TypeScript, and Node.js with proven results in performance optimization, offline-first systems, and distributed architecture. Delivered systems serving 100M+ users. Experienced with AWS, Azure, Docker, serverless, and CI/CD pipelines.",
+    "location": {
+      "city": "Ankara",
+      "countryCode": "TR"
+    }
+  },
+
+  "work": [
+    {
+      "company": "United Nations",
+      "position": "Senior Fullstack Engineer",
+      "location": "Remote",
+      "startDate": "2023-04",
+      "highlights": [
+        "Co-leading mission-critical mobile and backend platform used in global field operations",
+        "Used in global field operations under low-connectivity and mission-critical conditions",
+        "Designed offline-first sync architecture with SQLite and background workers for unreliable networks",
+        "Migrated critical crypto and validation logic to native modules, reducing latency from ~3s to <500ms",
+        "Architected containerized Azure + Docker environments and deployment pipelines",
+        "Built automated testing stack (unit, integration, E2E) with Jest, Detox, and Maestro in CI",
+        "Reduced bundle size ~40% and load time ~25% through dependency and architecture optimization"
+      ]
+    },
+    {
+      "company": "Wonderfruit",
+      "position": "Fullstack Engineer",
+      "location": "Bangkok",
+      "startDate": "2022-10",
+      "endDate": "2023-04",
+      "highlights": [
+        "First in-house engineer owning frontend, mobile, and serverless backend for 50k+ user platform",
+        "Led AWS serverless migration (Lambda, API Gateway), reducing infra cost ~50% and latency ~35%",
+        "Built custom tile server and caching layers for high-concurrency map workloads",
+        "Implemented CI/CD pipelines with GitHub Actions and automated deployment flows",
+        "Improved memory usage ~40% and load time ~25% through profiling and refactoring"
+      ]
+    },
+    {
+      "company": "Amity (social+)",
+      "position": "Web/Mobile Platform Engineer",
+      "location": "Bangkok",
+      "startDate": "2021-07",
+      "endDate": "2022-10",
+      "highlights": [
+        "Developed TypeScript SDK and client platform serving 100M+ monthly active users",
+        "Implemented caching, reactive state, and real-time event layers across web and mobile",
+        "Reduced partner integration effort ~60% through improved API consistency",
+        "Built automated unit and integration testing strategy"
+      ]
+    },
+    {
+      "company": "Peste",
+      "position": "Fullstack Engineer",
+      "location": "Remote (Netherlands)",
+      "startDate": "2020-04",
+      "endDate": "2021-03",
+      "highlights": [
+        "Architected high-availability platforms with sub-second API latency",
+        "Optimized backend infrastructure using Redis caching and query optimization",
+        "Implemented CI/CD pipelines reducing deployment friction and improving release velocity"
+      ]
+    },
+    {
+      "company": "Upera",
+      "position": "Lead Fullstack Engineer",
+      "location": "Tehran",
+      "startDate": "2014-01",
+      "endDate": "2019-06",
+      "highlights": [
+        "Led team of 5 engineers building video streaming platform serving 10k+ daily users",
+        "Architected fullstack systems using React, Vue, React Native, Laravel, and SQL",
+        "Optimized backend APIs and caching, reducing latency from ~800ms to ~200ms",
+        "Implemented Docker-based CI/CD and production deployment workflows"
+      ]
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Frontend",
+      "keywords": ["React", "TypeScript", "JavaScript", "Next.js", "Tailwind CSS", "Design Systems"]
+    },
+    {
+      "name": "Mobile",
+      "keywords": ["React Native", "Expo", "Offline-first architecture", "SQLite", "Native Modules"]
+    },
+    {
+      "name": "Backend",
+      "keywords": ["Node.js", "PHP", "Laravel", "Go", "REST APIs", "GraphQL", "SQL", "Redis"]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "keywords": ["AWS", "Azure", "Serverless", "Docker", "CI/CD", "GitHub Actions", "GitLab CI"]
+    },
+    {
+      "name": "Testing",
+      "keywords": ["Jest", "Detox", "Maestro", "Cypress", "Integration Testing", "E2E Testing"]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "Mohajer Technical University of Isfahan",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science"
+    }
+  ]
+}

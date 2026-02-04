@@ -1,0 +1,115 @@
+{
+  "basics": {
+    "name": "Reza Babaei",
+    "label": "Senior Software Engineer",
+    "email": "ramyariran@gmail.com",
+    "url": "https://github.com/ramyareye",
+    "linkedin": "https://linkedin.com/in/rezababaei",
+    "summary": "Senior Software Engineer with 8+ years building distributed systems and scalable platforms. Built SDKs and infrastructure serving 100M+ MAU. Deep experience in offline-first sync systems, performance-critical paths, and reliability engineering across client and server. Strong background in TypeScript, Node.js, React, and cloud infrastructure (AWS/Azure/Docker).",
+    "location": {
+      "city": "Ankara",
+      "countryCode": "TR"
+    }
+  },
+
+  "work": [
+    {
+      "company": "United Nations",
+      "position": "Senior Software Engineer",
+      "location": "Remote",
+      "startDate": "2023-04",
+      "highlights": [
+        "Architecting distributed mobile platform for global field operations under unreliable connectivity",
+        "Used in global field operations under low-connectivity and mission-critical conditions",
+        "Designed offline-first sync engine with SQLite and background workers — conflict resolution, idempotent writes, eventual consistency",
+        "Optimized performance-critical paths via native modules (Java/Swift/Obj-C), reducing p99 latency from ~3s to <500ms",
+        "Built fault-tolerant client data flows maintaining correctness during intermittent network conditions",
+        "Designed containerized Azure + Docker deployment pipelines with repeatable infrastructure",
+        "Reduced bundle size ~40% and load time ~25% through dependency analysis and architecture refactoring"
+      ]
+    },
+    {
+      "company": "Wonderfruit",
+      "position": "Software Engineer",
+      "location": "Bangkok",
+      "startDate": "2022-10",
+      "endDate": "2023-04",
+      "highlights": [
+        "Owned fullstack architecture across mobile clients and serverless backend for 50k+ user platform",
+        "Led AWS serverless migration (Lambda, API Gateway), reducing infrastructure cost ~50% and API latency ~35%",
+        "Designed client–API contracts and caching strategies for high-concurrency event workloads",
+        "Built custom asset serving pipeline with caching layers for map-heavy workloads",
+        "Improved peak memory ~40% and startup latency ~25% via profiling and hot-path optimization"
+      ]
+    },
+    {
+      "company": "Amity (social+)",
+      "position": "Platform Engineer",
+      "location": "Bangkok",
+      "startDate": "2021-07",
+      "endDate": "2022-10",
+      "highlights": [
+        "Developed TypeScript SDK and client platform modules serving 100M+ monthly active users",
+        "Implemented caching layer, reactive state management, and real-time event handling",
+        "Reduced partner integration effort ~60% through improved API consistency and documentation",
+        "Built automated testing strategy across platform modules"
+      ]
+    },
+    {
+      "company": "Peste",
+      "position": "Software Engineer",
+      "location": "Remote (Netherlands)",
+      "startDate": "2020-04",
+      "endDate": "2021-03",
+      "highlights": [
+        "Architected high-availability platforms with sub-second API latency requirements",
+        "Optimized backend throughput using Redis caching and query optimization",
+        "Implemented CI/CD pipelines improving deployment velocity and reliability"
+      ]
+    },
+    {
+      "company": "Upera",
+      "position": "Lead Software Engineer",
+      "location": "Tehran",
+      "startDate": "2014-01",
+      "endDate": "2019-06",
+      "highlights": [
+        "Led team of 5 engineers building video streaming platform serving 10k+ DAU",
+        "Architected fullstack systems across React, React Native, Laravel, and SQL backends",
+        "Redesigned caching and data access layers, reducing API latency from ~800ms to ~200ms (4x improvement)",
+        "Implemented Docker-based CI/CD and production deployment infrastructure"
+      ]
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": ["TypeScript", "JavaScript", "Node.js", "Go", "PHP", "SQL"]
+    },
+    {
+      "name": "Systems & Architecture",
+      "keywords": ["Distributed Systems", "Offline-first Architecture", "Data Synchronization", "Caching", "Consistency", "Fault Tolerance", "API Design", "Performance Optimization"]
+    },
+    {
+      "name": "Frontend & Mobile",
+      "keywords": ["React", "React Native", "Next.js", "State Management", "Cross-platform Architecture"]
+    },
+    {
+      "name": "Infrastructure",
+      "keywords": ["AWS", "Azure", "Serverless", "Docker", "Redis", "CI/CD", "GitHub Actions", "GitLab CI"]
+    },
+    {
+      "name": "Testing",
+      "keywords": ["Unit Testing", "Integration Testing", "E2E Testing", "Jest", "Detox", "Maestro"]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "Mohajer Technical University of Isfahan",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science"
+    }
+  ]
+}

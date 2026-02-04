@@ -1,0 +1,260 @@
+:root {
+  --or-blue: #3aa0d8;
+  --or-ink: #0f172a;
+  --or-muted: #475569;
+  --or-border: #e2e8f0;
+  --or-bg: #f1f5f9;
+  --or-paper: #ffffff;
+}
+
+body {
+  margin: 0;
+  background: var(--or-bg);
+  color: var(--or-ink);
+}
+
+.appShell {
+  min-height: 100vh;
+  padding: 24px 16px 64px;
+}
+
+.appToolbar {
+  max-width: 900px;
+  margin: 0 auto 12px;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toolbarGroup {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.toolbarLabel {
+  font-size: 14px;
+  color: var(--or-muted);
+}
+
+.toolbarSelect {
+  height: 36px;
+  border: 1px solid var(--or-border);
+  border-radius: 10px;
+  padding: 0 10px;
+  background: var(--or-paper);
+  color: var(--or-ink);
+}
+
+.toolbarButton {
+  height: 36px;
+  border: 1px solid var(--or-border);
+  border-radius: 10px;
+  padding: 0 12px;
+  background: var(--or-paper);
+  color: var(--or-ink);
+  cursor: pointer;
+}
+.toolbarButton:hover {
+  border-color: #94a3b8;
+}
+
+.orPage {
+  max-width: 900px;
+  margin: 0 auto;
+  background: var(--or-paper);
+  border: 1px solid var(--or-border);
+  border-radius: 14px;
+  padding: 38px 44px;
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
+}
+
+.orHeader {
+  margin-bottom: 22px;
+}
+
+.orName {
+  margin: 0;
+  font-size: 46px;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  color: var(--or-blue);
+}
+
+.orLabel {
+  margin-top: 8px;
+  font-size: 18px;
+  color: var(--or-ink);
+  font-weight: 600;
+}
+
+.orSummary {
+  margin: 12px 0 0;
+  color: var(--or-muted);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.orContacts {
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 18px;
+}
+
+.orContact {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 13px;
+  color: var(--or-muted);
+  text-decoration: none;
+}
+
+.orContactLink:hover .orContactText {
+  text-decoration: underline;
+}
+
+.orContactIcon {
+  display: inline-flex;
+  color: var(--or-muted);
+}
+
+.orSection {
+  margin-top: 20px;
+}
+
+.orSectionTitle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 18px 0 10px;
+}
+
+.orSectionRule {
+  width: 56px;
+  height: 4px;
+  background: var(--or-blue);
+  border-radius: 999px;
+  flex: 0 0 auto;
+}
+
+.orSectionHeading {
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--or-ink);
+}
+
+.orItem {
+  margin: 14px 0 0;
+}
+
+.orItemTopRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.orItemTitle {
+  font-weight: 800;
+  font-size: 16px;
+  color: var(--or-ink);
+}
+
+.orItemDates {
+  font-size: 13px;
+  color: var(--or-muted);
+  white-space: nowrap;
+}
+
+.orItemSubRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 2px;
+}
+
+.orItemSubtitle {
+  font-size: 14px;
+  color: var(--or-ink);
+}
+
+.orItemMeta {
+  font-size: 13px;
+  color: var(--or-muted);
+  white-space: nowrap;
+}
+
+.orBullets {
+  margin: 8px 0 0 18px;
+  padding: 0;
+  color: var(--or-ink);
+}
+
+.orBullets li {
+  margin: 4px 0;
+  line-height: 1.45;
+  font-size: 13.5px;
+}
+
+.orSkillsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 18px;
+  margin-top: 10px;
+}
+
+.orSkillName {
+  font-weight: 700;
+  font-size: 13.5px;
+  color: var(--or-ink);
+}
+
+.orSkillKeywords {
+  margin-top: 2px;
+  font-size: 13px;
+  color: var(--or-muted);
+  line-height: 1.45;
+}
+
+@media (max-width: 740px) {
+  .orPage {
+    padding: 26px 18px;
+  }
+  .orName {
+    font-size: 36px;
+  }
+  .orSkillsGrid {
+    grid-template-columns: 1fr;
+  }
+  .orItemSubRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+  .appToolbar {
+    display: none !important;
+  }
+  .appShell {
+    padding: 0;
+  }
+  .orPage {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    max-width: none;
+    padding: 0.5in 0.6in;
+  }
+}
+
