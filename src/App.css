@@ -90,14 +90,14 @@ body {
 }
 
 .orSummary {
-  margin: 12px 0 0;
+  margin: 10px 0 0;
   color: var(--or-muted);
   font-size: 14px;
   line-height: 1.55;
 }
 
 .orContacts {
-  margin-top: 14px;
+  margin-top: 12px;
   display: flex;
   flex-wrap: wrap;
   gap: 14px 18px;
@@ -129,7 +129,7 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin: 18px 0 10px;
+  margin: 18px 0 8px;
 }
 
 .orSectionRule {
@@ -149,7 +149,7 @@ body {
 }
 
 .orItem {
-  margin: 14px 0 0;
+  margin: 12px 0 0;
 }
 
 .orItemTopRow {
@@ -240,8 +240,17 @@ body {
 }
 
 @media print {
+  @page {
+    margin: 0.5in;
+  }
   body {
     background: #fff;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .orSectionRule {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
   .appToolbar {
     display: none !important;
@@ -254,7 +263,7 @@ body {
     box-shadow: none;
     border-radius: 0;
     max-width: none;
-    padding: 0.5in 0.6in;
+    padding: 0 0.3in;
+    /* padding: 0.5in 0.6in; */
   }
 }
-

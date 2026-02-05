@@ -5,7 +5,7 @@
     "email": "ramyariran@gmail.com",
     "url": "https://github.com/ramyareye",
     "linkedin": "https://linkedin.com/in/rezababaei",
-    "summary": "Senior React Native Engineer with 8+ years building high-performance mobile platforms. Expert in native module development (Java/Swift/Obj-C), offline-first architecture, and mobile performance optimization. Proven impact reducing latency, memory usage, and sync failures in production apps serving mission-critical environments. Strong background in cloud infrastructure, CI/CD, and automated testing.",
+    "summary": "Senior React Native Engineer with 8+ years building high-performance mobile platforms in React Native/TypeScript. Expert in native module development (Java/Swift/Obj-C), offline-first architecture, and mobile performance optimization. Proven impact reducing latency, memory usage, and sync failures in production apps serving mission-critical environments. Strong background in cloud infrastructure, CI/CD, and automated testing.",
     "location": {
       "city": "Ankara",
       "countryCode": "TR"
@@ -23,7 +23,7 @@
         "Used in global field operations under low-connectivity and mission-critical conditions",
         "Architected offline-first sync engine using SQLite and background workers with conflict-safe flows",
         "Built native modules (Java/Swift/Obj-C) for crypto and validation, bypassing JS bridge — reduced latency from ~3s to <500ms",
-        "Designed reliability-focused client data flows maintaining correctness during intermittent network",
+        "Designed reliability-focused client data flows maintaining correctness during intermittent network conditions",
         "Built multi-layer automated testing stack (Jest, Detox, Maestro) with 85%+ coverage in CI",
         "Reduced bundle size ~40% and load time ~25% through rendering and dependency optimization"
       ]
@@ -86,31 +86,69 @@
   "skills": [
     {
       "name": "Mobile Platform",
-      "keywords": ["React Native", "Expo", "Cross-platform Architecture", "Offline-first", "SQLite", "Sync Engines", "Background Workers"]
+      "keywords": [
+        "React Native",
+        "Expo",
+        "Cross-platform Architecture",
+        "Offline-first",
+        "SQLite",
+        "Sync Engines",
+        "Background Workers"
+      ]
     },
     {
       "name": "Native & Performance",
-      "keywords": ["Native Modules", "Java", "Swift", "Objective-C", "Bridge Optimization", "Performance Profiling", "Memory Optimization", "Reanimated", "Skia"]
+      "keywords": [
+        "Native Modules",
+        "Java",
+        "Swift",
+        "Objective-C",
+        "Bridge Optimization",
+        "Performance Profiling",
+        "Memory Optimization",
+        "Reanimated",
+        "Skia"
+      ]
     },
     {
       "name": "Frontend",
-      "keywords": ["TypeScript", "JavaScript", "React", "State Management", "Accessibility"]
+      "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "React",
+        "State Management",
+        "Accessibility"
+      ]
     },
     {
       "name": "Infrastructure",
-      "keywords": ["AWS", "Azure", "Docker", "CI/CD", "GitHub Actions", "GitLab CI", "Fastlane"]
+      "keywords": [
+        "AWS",
+        "Azure",
+        "Docker",
+        "CI/CD",
+        "GitHub Actions",
+        "GitLab CI",
+        "Fastlane"
+      ]
     },
     {
       "name": "Testing",
-      "keywords": ["Jest", "Detox", "Maestro", "Integration Testing", "E2E Testing"]
+      "keywords": [
+        "Jest",
+        "Detox",
+        "Maestro",
+        "Integration Testing",
+        "E2E Testing"
+      ]
     }
   ],
 
   "education": [
     {
       "institution": "Mohajer Technical University of Isfahan",
-      "area": "Computer Science",
-      "studyType": "Bachelor of Science"
+      "area": "Computer (Software Orientation)",
+      "studyType": "Associate Degree"
     }
   ]
 }

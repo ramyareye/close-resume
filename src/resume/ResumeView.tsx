@@ -1,35 +1,40 @@
-import type { ResumeJson, ResumeWork } from './types'
-import { formatDateRange, joinTruthy } from './format'
-import { LinkIcon, LinkedInIcon, MailIcon, MapPinIcon } from './icons'
-import type { ReactNode } from 'react'
+import type { ResumeJson, ResumeWork } from "./types";
+import { formatDateRange, joinTruthy } from "./format";
+import { LinkIcon, LinkedInIcon, MailIcon } from "./icons";
+import type { ReactNode } from "react";
 
 type Props = {
-  resume: ResumeJson
-}
+  resume: ResumeJson;
+};
 
 function ContactItem({
   icon,
   href,
   text,
 }: {
-  icon: ReactNode
-  href?: string
-  text: string
+  icon: ReactNode;
+  href?: string;
+  text: string;
 }) {
   const content = (
     <>
       <span className="orContactIcon">{icon}</span>
       <span className="orContactText">{text}</span>
     </>
-  )
+  );
 
-  if (!href) return <div className="orContact">{content}</div>
+  if (!href) return <div className="orContact">{content}</div>;
 
   return (
-    <a className="orContact orContactLink" href={href} target="_blank" rel="noreferrer">
+    <a
+      className="orContact orContactLink"
+      href={href}
+      target="_blank"
+      rel="noreferrer"
+    >
       {content}
     </a>
-  )
+  );
 }
 
 function SectionTitle({ title }: { title: string }) {
@@ -38,11 +43,11 @@ function SectionTitle({ title }: { title: string }) {
       <div className="orSectionRule" />
       <h2 className="orSectionHeading">{title}</h2>
     </div>
-  )
+  );
 }
 
 function WorkItem({ item }: { item: ResumeWork }) {
-  const dateRange = formatDateRange(item.startDate, item.endDate)
+  const dateRange = formatDateRange(item.startDate, item.endDate);
 
   return (
     <div className="orItem">
@@ -52,7 +57,9 @@ function WorkItem({ item }: { item: ResumeWork }) {
       </div>
       <div className="orItemSubRow">
         <div className="orItemSubtitle">{item.position}</div>
-        {item.location ? <div className="orItemMeta">{item.location}</div> : null}
+        {item.location ? (
+          <div className="orItemMeta">{item.location}</div>
+        ) : null}
       </div>
       {item.highlights?.length ? (
         <ul className="orBullets">
@@ -62,16 +69,20 @@ function WorkItem({ item }: { item: ResumeWork }) {
         </ul>
       ) : null}
     </div>
-  )
+  );
 }
 
 export function ResumeView({ resume }: Props) {
-  const { basics } = resume
+  const { basics } = resume;
 
-  const location = joinTruthy([basics.location?.city, basics.location?.region, basics.location?.countryCode])
+  // const location = joinTruthy([
+  //   basics.location?.city,
+  //   basics.location?.region,
+  //   basics.location?.countryCode,
+  // ]);
 
-  const websiteLabel = basics.url?.replace(/^https?:\/\//, '')
-  const linkedinLabel = basics.linkedin?.replace(/^https?:\/\//, '')
+  const websiteLabel = basics.url?.replace(/^https?:\/\//, "");
+  const linkedinLabel = basics.linkedin?.replace(/^https?:\/\//, "");
 
   return (
     <article className="orPage" aria-label="Resume">
@@ -82,14 +93,26 @@ export function ResumeView({ resume }: Props) {
 
         <div className="orContacts" aria-label="Contact">
           {basics.email ? (
-            <ContactItem icon={<MailIcon />} href={`mailto:${basics.email}`} text={basics.email} />
+            <ContactItem
+              icon={<MailIcon />}
+              href={`mailto:${basics.email}`}
+              text={basics.email}
+            />
           ) : null}
           {basics.url ? (
-            <ContactItem icon={<LinkIcon />} href={basics.url} text={websiteLabel ?? basics.url} />
+            <ContactItem
+              icon={<LinkIcon />}
+              href={basics.url}
+              text={websiteLabel ?? basics.url}
+            />
           ) : null}
-          {location ? <ContactItem icon={<MapPinIcon />} text={location} /> : null}
+          {/* {location ? <ContactItem icon={<MapPinIcon />} text={location} /> : null} */}
           {basics.linkedin ? (
-            <ContactItem icon={<LinkedInIcon />} href={basics.linkedin} text={linkedinLabel ?? basics.linkedin} />
+            <ContactItem
+              icon={<LinkedInIcon />}
+              href={basics.linkedin}
+              text={linkedinLabel ?? basics.linkedin}
+            />
           ) : null}
         </div>
       </header>
@@ -98,7 +121,10 @@ export function ResumeView({ resume }: Props) {
         <section className="orSection">
           <SectionTitle title="Work Experience" />
           {resume.work.map((w) => (
-            <WorkItem key={`${w.company}-${w.startDate ?? ''}-${w.position ?? ''}`} item={w} />
+            <WorkItem
+              key={`${w.company}-${w.startDate ?? ""}-${w.position ?? ""}`}
+              item={w}
+            />
           ))}
         </section>
       ) : null}
@@ -107,17 +133,25 @@ export function ResumeView({ resume }: Props) {
         <section className="orSection">
           <SectionTitle title="Education" />
           {resume.education.map((e) => {
-            const title = joinTruthy([e.institution, e.area]) ?? e.institution ?? 'Education'
-            const subtitle = joinTruthy([e.studyType, e.score])
-            const dates = formatDateRange(e.startDate, e.endDate)
+            const title =
+              joinTruthy([e.institution, e.area]) ??
+              e.institution ??
+              "Education";
+            const subtitle = joinTruthy([e.studyType, e.score]);
+            const dates = formatDateRange(e.startDate, e.endDate);
 
             return (
-              <div className="orItem" key={`${e.institution ?? ''}-${e.area ?? ''}-${e.studyType ?? ''}`}>
+              <div
+                className="orItem"
+                key={`${e.institution ?? ""}-${e.area ?? ""}-${e.studyType ?? ""}`}
+              >
                 <div className="orItemTopRow">
                   <div className="orItemTitle">{title}</div>
                   {dates ? <div className="orItemDates">{dates}</div> : null}
                 </div>
-                {subtitle ? <div className="orItemSubtitle">{subtitle}</div> : null}
+                {subtitle ? (
+                  <div className="orItemSubtitle">{subtitle}</div>
+                ) : null}
                 {e.courses?.length ? (
                   <ul className="orBullets">
                     {e.courses.map((c) => (
@@ -126,7 +160,7 @@ export function ResumeView({ resume }: Props) {
                   </ul>
                 ) : null}
               </div>
-            )
+            );
           })}
         </section>
       ) : null}
@@ -138,12 +172,14 @@ export function ResumeView({ resume }: Props) {
             {resume.skills.map((s) => (
               <div className="orSkill" key={s.name}>
                 <div className="orSkillName">{s.name}</div>
-                {s.keywords?.length ? <div className="orSkillKeywords">{s.keywords.join(', ')}</div> : null}
+                {s.keywords?.length ? (
+                  <div className="orSkillKeywords">{s.keywords.join(", ")}</div>
+                ) : null}
               </div>
             ))}
           </div>
         </section>
       ) : null}
     </article>
-  )
+  );
 }

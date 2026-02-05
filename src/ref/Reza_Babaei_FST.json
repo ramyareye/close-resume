@@ -5,7 +5,7 @@
     "email": "ramyariran@gmail.com",
     "url": "https://github.com/ramyareye",
     "linkedin": "https://linkedin.com/in/rezababaei",
-    "summary": "Senior Fullstack Engineer with 8+ years building scalable products across frontend, backend, and cloud infrastructure. Expert in React/Next.js, TypeScript, Node.js, and GraphQL with proven results in performance optimization, offline-first systems, and distributed architecture. Delivered systems serving 100M+ users. Experienced with AWS, Azure, Docker, serverless, and CI/CD pipelines.",
+    "summary": "Senior Fullstack Engineer with 8+ years building external-facing web tooling and scalable platforms across frontend, backend, and cloud infrastructure. Expert in React, TypeScript, Next.js, Node.js, and GraphQL with proven results in performance optimization, real-time event systems, offline-first sync, and distributed architecture. Delivered systems serving 100M+ users. Experienced with AWS, Azure, Docker, serverless, and CI/CD pipelines. Based in Ankara, open to relocation to Amsterdam.",
     "location": {
       "city": "Ankara",
       "countryCode": "TR"
@@ -19,8 +19,9 @@
       "location": "Remote",
       "startDate": "2023-04",
       "highlights": [
-        "Co-led a mission-critical mobile and backend platform for global field operations under unreliable connectivity",
-        "Designed offline-first sync architecture with SQLite and background workers for unreliable networks",
+        "Co-leading mission-critical mobile and backend platform used in global field operations",
+        "Used in global field operations under low-connectivity and mission-critical conditions",
+        "Designed offline-first sync architecture with SQLite and background workers to support near real-time monitoring workflows in unreliable networks",
         "Migrated critical crypto and validation logic to native modules, reducing latency from ~3s to <500ms",
         "Architected containerized Azure + Docker environments and deployment pipelines",
         "Built automated testing stack (unit, integration, E2E) with Jest, Detox, and Maestro in CI",
@@ -34,7 +35,8 @@
       "startDate": "2022-10",
       "endDate": "2023-04",
       "highlights": [
-        "First in-house engineer owning web frontend (Next.js/React/TypeScript), mobile, and serverless backend for 50k+ user platform",
+        "First in-house engineer owning frontend, mobile, and serverless backend for 50k+ user platform",
+        "Built customer-facing web tooling in Next.js (React/TypeScript), integrating with serverless APIs",
         "Led AWS serverless migration (Lambda, API Gateway), reducing infra cost ~50% and latency ~35%",
         "Built custom tile server and caching layers for high-concurrency map workloads",
         "Implemented CI/CD pipelines with GitHub Actions and automated deployment flows",
@@ -49,8 +51,8 @@
       "endDate": "2022-10",
       "highlights": [
         "Developed TypeScript SDK and client platform serving 100M+ monthly active users",
-        "Implemented caching, reactive state, and real-time event layers across web and mobile",
-        "Architected GraphQL schemas and improved API consistency, reducing partner integration effort ~60%",
+        "Implemented caching, reactive state, and real-time event layers across web and mobile for live data monitoring",
+        "Architected GraphQL schemas to improve API consistency and reduce partner integration effort ~60%",
         "Built automated unit and integration testing strategy"
       ]
     },
@@ -74,7 +76,8 @@
       "endDate": "2019-06",
       "highlights": [
         "Led team of 5 engineers building video streaming platform serving 10k+ daily users",
-        "Architected fullstack systems using Next.js/React, Vue, React Native, Laravel, and SQL; implemented microfrontend architecture for modular feature delivery",
+        "Built e-commerce and marketing websites using Next.js/React and Laravel backends",
+        "Implemented microfrontend architecture to scale large web surfaces and enable modular feature delivery",
         "Optimized backend APIs and caching, reducing latency from ~800ms to ~200ms",
         "Implemented Docker-based CI/CD and production deployment workflows"
       ]

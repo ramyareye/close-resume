@@ -5,7 +5,7 @@
     "email": "ramyariran@gmail.com",
     "url": "https://github.com/ramyareye",
     "linkedin": "https://linkedin.com/in/rezababaei",
-    "summary": "Senior Software Engineer with 8+ years building distributed systems and scalable platforms. Built SDKs and infrastructure serving 100M+ MAU. Deep experience in offline-first sync systems, performance-critical paths, and reliability engineering across client and server. Strong background in TypeScript, Node.js, React, and cloud infrastructure (AWS/Azure/Docker).",
+    "summary": "Senior Software Engineer with 8+ years building distributed systems and scalable platforms. Built SDKs and infrastructure serving 100M+ MAU. Deep experience in offline-first sync systems, performance-critical paths, and reliability engineering across client and server. Strong background in TypeScript, Node.js, React/Next.js, GraphQL, and cloud infrastructure (AWS/Azure/Docker).",
     "location": {
       "city": "Ankara",
       "countryCode": "TR"
@@ -19,8 +19,7 @@
       "location": "Remote",
       "startDate": "2023-04",
       "highlights": [
-        "Architecting distributed mobile platform for global field operations under unreliable connectivity",
-        "Used in global field operations under low-connectivity and mission-critical conditions",
+        "Architected a distributed client platform for global field operations under unreliable connectivity and mission-critical constraints",
         "Designed offline-first sync engine with SQLite and background workers — conflict resolution, idempotent writes, eventual consistency",
         "Optimized performance-critical paths via native modules (Java/Swift/Obj-C), reducing p99 latency from ~3s to <500ms",
         "Built fault-tolerant client data flows maintaining correctness during intermittent network conditions",
@@ -35,7 +34,7 @@
       "startDate": "2022-10",
       "endDate": "2023-04",
       "highlights": [
-        "Owned fullstack architecture across mobile clients and serverless backend for 50k+ user platform",
+        "Owned fullstack architecture across Next.js web app, mobile clients, and serverless backend for 50k+ user platform",
         "Led AWS serverless migration (Lambda, API Gateway), reducing infrastructure cost ~50% and API latency ~35%",
         "Designed client–API contracts and caching strategies for high-concurrency event workloads",
         "Built custom asset serving pipeline with caching layers for map-heavy workloads",
@@ -51,7 +50,7 @@
       "highlights": [
         "Developed TypeScript SDK and client platform modules serving 100M+ monthly active users",
         "Implemented caching layer, reactive state management, and real-time event handling",
-        "Reduced partner integration effort ~60% through improved API consistency and documentation",
+        "Architected GraphQL schemas and improved API consistency and documentation, reducing partner integration effort ~60%",
         "Built automated testing strategy across platform modules"
       ]
     },
@@ -75,7 +74,7 @@
       "endDate": "2019-06",
       "highlights": [
         "Led team of 5 engineers building video streaming platform serving 10k+ DAU",
-        "Architected fullstack systems across React, React Native, Laravel, and SQL backends",
+        "Architected fullstack systems across Next.js/React, React Native, Laravel, and SQL backends; implemented microfrontends to enable modular feature delivery",
         "Redesigned caching and data access layers, reducing API latency from ~800ms to ~200ms (4x improvement)",
         "Implemented Docker-based CI/CD and production deployment infrastructure"
       ]
@@ -89,27 +88,61 @@
     },
     {
       "name": "Systems & Architecture",
-      "keywords": ["Distributed Systems", "Offline-first Architecture", "Data Synchronization", "Caching", "Consistency", "Fault Tolerance", "API Design", "Performance Optimization"]
+      "keywords": [
+        "Distributed Systems",
+        "Offline-first Architecture",
+        "Data Synchronization",
+        "Caching",
+        "Consistency",
+        "Fault Tolerance",
+        "API Design",
+        "GraphQL",
+        "Performance Optimization"
+      ]
     },
     {
       "name": "Frontend & Mobile",
-      "keywords": ["React", "React Native", "Next.js", "State Management", "Cross-platform Architecture"]
+      "keywords": [
+        "React",
+        "React Native",
+        "Next.js",
+        "Microfrontends",
+        "Module Federation (experimental)",
+        "State Management",
+        "Cross-platform Architecture"
+      ]
     },
     {
       "name": "Infrastructure",
-      "keywords": ["AWS", "Azure", "Serverless", "Docker", "Redis", "CI/CD", "GitHub Actions", "GitLab CI"]
+      "keywords": [
+        "AWS",
+        "Azure",
+        "Serverless",
+        "Docker",
+        "Redis",
+        "CI/CD",
+        "GitHub Actions",
+        "GitLab CI"
+      ]
     },
     {
       "name": "Testing",
-      "keywords": ["Unit Testing", "Integration Testing", "E2E Testing", "Jest", "Detox", "Maestro"]
+      "keywords": [
+        "Unit Testing",
+        "Integration Testing",
+        "E2E Testing",
+        "Jest",
+        "Detox",
+        "Maestro"
+      ]
     }
   ],
 
   "education": [
     {
       "institution": "Mohajer Technical University of Isfahan",
-      "area": "Computer Science",
-      "studyType": "Bachelor of Science"
+      "area": "Computer (Software Orientation)",
+      "studyType": "Associate Degree"
     }
   ]
 }
