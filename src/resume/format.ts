@@ -43,3 +43,8 @@ export function joinTruthy(
     .filter((p): p is string => Boolean(p));
   return filtered.length ? filtered.join(", ") : undefined;
 }
+
+// I would like to formally refer Reza Babaei for the Senior Full-Stack Software Engineer position within the Energy UI team. Reza is a highly skilled engineer with over 8 years of experience specializing in React, TypeScript, and GraphQL. He has a proven track record of building large-scale platforms, including a TypeScript SDK and client platform that serves over 100 million monthly active users.
+// +2
+
+// What makes him a particularly strong fit for Tesla Energy is his recent work with the United Nations, where he architected offline-first sync systems for real-time monitoring in mission-critical environments. This experience directly aligns with the technical challenges of managing distributed energy resources like Powerhub. He is also an expert in Next.js and distributed architectures, with deep experience in CI/CD and cloud infrastructure.

@@ -1,0 +1,135 @@
+{
+  "basics": {
+    "name": "Reza Babaei",
+    "label": "Senior Software Engineer",
+    "email": "ramyariran@gmail.com",
+    "url": "https://github.com/ramyareye",
+    "linkedin": "https://linkedin.com/in/rezababaei",
+    "summary": "Senior Software Engineer with 8+ years of experience building and scaling web and mobile products at large scale. Strong background in React, React Native, Node.js, and distributed systems, with a focus on performance, reliability, and shipping production-ready features end-to-end. Quick to ramp on new languages and internal tooling. Contributed to platform modules serving 10M+ MAU and built offline-first systems supporting mission-critical global operations under unreliable connectivity."
+  },
+
+  "work": [
+    {
+      "company": "United Nations",
+      "position": "Senior Software Engineer",
+      "location": "Remote / Thailand",
+      "startDate": "2023-04",
+      "highlights": [
+        "Led development of mission-critical mobile and web workflows used by global field teams operating in low-connectivity environments",
+        "Collaborated with product stakeholders to define requirements and deliver scalable, production-grade features",
+        "Designed and implemented offline-first synchronization using SQLite and background workers, with retry logic and sync-state tracking for unreliable networks.",
+        "Reduced p99 latency from ~3s to <500ms through performance optimization across JavaScript and native layers (Java/Swift/Objective-C)",
+        "Improved release reliability through containerized Azure + Docker CI/CD pipelines and safer rollout processes"
+      ]
+    },
+    {
+      "company": "Wonderfruit",
+      "position": "Software Engineer",
+      "location": "Bangkok",
+      "startDate": "2022-10",
+      "endDate": "2023-04",
+      "highlights": [
+        "Built and maintained full-stack web and mobile features for a 50k+ user event platform, supporting high traffic during peak festival periods",
+        "Worked closely with product and design to implement performant user experiences across Next.js and React Native clients",
+        "Led AWS serverless migration (Lambda, API Gateway), reducing infra cost ~50% and latency ~35%",
+        "Designed caching and asset delivery strategies for map-heavy workloads, improving startup time ~25% and reducing peak memory usage ~40%"
+      ]
+    },
+    {
+      "company": "Amity (social+)",
+      "position": "Platform Engineer",
+      "location": "Bangkok",
+      "startDate": "2021-07",
+      "endDate": "2022-10",
+      "highlights": [
+        "Developed TypeScript SDK and client platform modules powering social products with 10M+ monthly active users",
+        "Built core client-side modules for caching, reactive state management, and real-time event handling",
+        "Improved GraphQL schema consistency and API design for cleaner data flows, reducing partner integration effort ~60%",
+        "Collaborated across product and platform teams to improve release quality and system reliability"
+      ]
+    },
+    {
+      "company": "Peste",
+      "position": "Fullstack Engineer",
+      "location": "Remote (Netherlands)",
+      "startDate": "2020-04",
+      "endDate": "2021-03",
+      "highlights": [
+        "Architected high-availability platforms with sub-second API latency and optimized backend performance with Redis caching",
+        "Implemented CI/CD pipelines to improve deployment reliability and release velocity"
+      ]
+    },
+    {
+      "company": "Upera",
+      "position": "Lead Fullstack Engineer",
+      "location": "Tehran",
+      "startDate": "2014-01",
+      "endDate": "2019-06",
+      "highlights": [
+        "Led a team of 5 engineers on a video platform serving 10k+ daily users, reducing backend latency from ~800ms to ~200ms",
+        "Built and scaled e-commerce and marketing web products using Next.js/React and Laravel backends"
+      ]
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "Node.js",
+        "Hack",
+        "PHP/Laravel",
+        "Python (working knowledge)",
+        "Go",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Frontend & Mobile",
+      "keywords": [
+        "React",
+        "React Native",
+        "Next.js",
+        "Web Interfaces",
+        "State Management",
+        "Cross-platform Architecture"
+      ]
+    },
+    {
+      "name": "Backend & Systems",
+      "keywords": [
+        "GraphQL",
+        "REST APIs",
+        "Large-Scale Distributed Systems",
+        "Consistency Models",
+        "High-Concurrency Workloads",
+        "Offline-first Architecture",
+        "Caching"
+      ]
+    },
+    {
+      "name": "Infrastructure & Quality",
+      "keywords": [
+        "AWS",
+        "Azure",
+        "Serverless",
+        "Docker",
+        "Redis",
+        "CI/CD",
+        "Jest",
+        "Integration Testing",
+        "E2E Testing"
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "Mohajer Technical University of Isfahan",
+      "area": "Computer (Software Orientation)",
+      "studyType": "Associate Degree"
+    }
+  ]
+}
